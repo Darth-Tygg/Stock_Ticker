@@ -10,6 +10,7 @@ from tkinter import *
 
 # Creating a GUI Window
 window = Tk()
+window.title("Stock Ticker")
 
 # Getting the user to input desired stock ticker.
 t1 = tk.Label(master=window, text='What is the stock ticker? ')
